@@ -11,6 +11,8 @@ def main():
     match run:
         case "day1" | "1":
             day1.entry()
+        case "day2" | "2":
+            day2.entry()
         case _:
             print("day not available yet.")
 

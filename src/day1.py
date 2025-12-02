@@ -1,3 +1,5 @@
+file_path = "data/day1"
+
 def part1(data):
     current_pos = 50
     pass_counter = 0
@@ -44,7 +46,7 @@ def part2(data):
 
 def entry():
     # read data
-    with open("data/day1", "r") as file:
+    with open(file_path) as file:
         data = [line[:-1] for line in file]
 
     # print answers

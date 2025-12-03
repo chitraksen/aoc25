@@ -13,6 +13,8 @@ def main():
             day1.entry()
         case "day2" | "2":
             day2.entry()
+        case "day3" | "3":
+            day3.entry()
         case _:
             print("day not available yet.")
 

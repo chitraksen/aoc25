@@ -19,6 +19,10 @@ def main():
             day4.entry()
         case "day5" | "5":
             day5.entry()
+        case "day6" | "6":
+            day6.entry()
+        case "day7" | "7":
+            day7.entry()
         case _:
             print("day not available yet.")
 
